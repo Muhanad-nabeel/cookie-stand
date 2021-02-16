@@ -55,7 +55,6 @@ tokyo.render();
 dubai.render();
 paris.render();
 lima.render();
-
 const footRowEl = document.createElement('tr');
 tableEl.appendChild(footRowEl);
 const footCellEl = document.createElement('th');
