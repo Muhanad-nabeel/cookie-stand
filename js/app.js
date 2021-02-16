@@ -1,5 +1,4 @@
 'use strict';
-
 const totOfTot = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 function getRandomNo(min, max) {
   return Math.floor((Math.random() * (max - min + 1)) + min);
@@ -54,7 +53,6 @@ tokyo.render();
 dubai.render();
 paris.render();
 lima.render();
-
 const footRowEl = document.createElement('tr');
 tableEl.appendChild(footRowEl);
 const footCellEl = document.createElement('th');
