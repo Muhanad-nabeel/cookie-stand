@@ -1,5 +1,4 @@
 'use strict';
-
 const totOfTot = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 function getRandomNo(min, max) {
   return Math.floor((Math.random() * (max - min + 1)) + min);
@@ -16,12 +15,12 @@ for (let i = 0; i < timeArr.length; i++) {
   headCellEl.textContent = timeArr[i];
 }
 function Salmon(location, min, max, avgCookie, cookiePurArray, total) {
-this.location=location;
-this.min=min;
-this.avgCookie=avgCookie;
-this.cookiePurArray=cookiePurArray;
-this.total=total;
-
+  this.location = location;
+  this.min = min;
+  this.max = max;
+  this.avgCookie = avgCookie;
+  this.cookiePurArray = cookiePurArray;
+  this.total = total;
   Salmon.prototype.getCookiePerCust = function () {
     for (let i = 0; i < (timeArr.length - 1); i++) {
       this.cookiePurArray[i] = Math.floor(getRandomNo(this.min, this.max) * this.avgCookie);
