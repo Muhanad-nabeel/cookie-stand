@@ -2,5 +2,5 @@ table , tr ,td{
   border: 1px solid red;
 }
 table th{
-  border: 1px solid darkblue;
+  border: 2px solid darkblue;
 }
