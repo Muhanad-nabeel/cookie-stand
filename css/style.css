@@ -142,11 +142,25 @@ font-size: 25px;
   transition: 2s ease-in;
 }
 
-
+table{
+  margin: 450px 400px;
+}
 table , tr ,td{
   border: 1px solid red;
 }
 table th{
   border: 2px solid darkblue;
 }
+#here a{
+  text-decoration: none;
+  font-size: 30px;
+  color: red;
+margin: 750px;  
 
+}
+#here{
+  background-image: url(../images/salmon.png);
+background-repeat: no-repeat;
+height: 60vh;
+width: 100%;
+}
