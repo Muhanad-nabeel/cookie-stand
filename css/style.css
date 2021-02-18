@@ -24,6 +24,7 @@ header nav ul li a{
   font-size: 25px;
   padding:20px;
   color: white;
+  font-family: 'Ballet', cursive;
 }
 header nav ul li a:hover{
 transition:  1s ease-in;
@@ -46,25 +47,28 @@ height: 110vh;
   font-size: 80px;
   font-weight: 700;
   color: rgb(0, 44, 65);
-  padding-top: 30px;
+  padding-top: 10px;
+  font-family: 'Anton', sans-serif;
+font-family: 'Ballet', cursive;
 }
 .sec1 .items{
   
   display: flex;
-padding: 240px 10px;
+padding: 240px 0px;
 text-align: center;
-margin: 0 30px;
+margin: 0 0px;
 margin-top: 0px;
 }
 
 .sec1 .item1{
-
+  
   width: 450px;
   height: 350px;
-  color: rgb(255, 0, 0);
+  color: rgb(68, 67, 18);
   border: 2px solid rgb(1, 43, 90);
   border-radius: 40px;
-  box-shadow: 4px 4px 4px 8px white;
+  box-shadow: 4px 4px 4px 8px rgb(179, 209, 9);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 margin: 120px 2px;
 margin-right: 20px;
 
@@ -77,6 +81,12 @@ img{
 .sec1 .item1 .text{
   padding: 50px;
   font-size: 25px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Ballet', cursive;
+  font-family: 'Big Shoulders Inline Display', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Lobster', cursive;
+  font-family: 'Ranchers', cursive;
 }
 .sec1 .item1 .text h4{
   padding:40px 60px;
@@ -87,10 +97,10 @@ img{
 
   width: 450px;
   height: 350px;
-  color: rgb(255, 0, 0);
+  color: rgb(11, 212, 179);
   border: 2px solid rgb(1, 43, 90);
   border-radius: 40px;
-  box-shadow: 4px 4px 4px 8px white;
+  box-shadow: 4px 4px 4px 8px rgb(192, 82, 19);
 margin: 120px 2px;
 margin-right: 20px;
 
@@ -98,6 +108,7 @@ margin-right: 20px;
 .sec1 .item2 .text{
   padding: 50px;
 font-size: 25px;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .sec1 .item2 .text h4{
   padding:40px 60px;
@@ -108,10 +119,13 @@ font-size: 25px;
  
   width: 450px;
   height: 350px;
-  color: rgb(255, 0, 0);
+  color: rgb(16, 56, 88);
   border: 2px solid rgb(1, 43, 90);
   border-radius: 40px;
-  box-shadow: 4px 4px 4px 8px white;
+  font-family: 'Anton', sans-serif;
+font-family: 'Ballet', cursive;
+font-family: 'Big Shoulders Inline Display', cursive;
+  box-shadow: 4px 4px 4px 8px rgb(40, 136, 27);
 margin: 120px 2px;
 margin-right: 20px;
 
@@ -130,10 +144,14 @@ font-size: 25px;
 
   width: 450px;
   height: 350px;
-  color: rgb(255, 0, 0);
+  color: rgb(192, 33, 192);
 border: 2px solid rgb(1, 43, 90);
 border-radius: 40px;
-box-shadow: 4px 4px 4px 8px white;
+font-family: 'Anton', sans-serif;
+font-family: 'Ballet', cursive;
+font-family: 'Big Shoulders Inline Display', cursive;
+font-family: 'Ranchers', cursive;
+box-shadow: 4px 4px 4px 8px rgb(83, 26, 26);
 margin: 120px 2px;
 padding: 50px 0;
 
@@ -168,6 +186,12 @@ font-weight: 500;
 text-align: center;
 }
 .sec2 h1{
+  font-family: 'Anton', sans-serif;
+font-family: 'Ballet', cursive;
+font-family: 'Big Shoulders Inline Display', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Ranchers', cursive;
   font-size: 70px;
   color: skyblue;
   padding: 30px;
